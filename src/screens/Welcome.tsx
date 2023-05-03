@@ -72,7 +72,7 @@ export default function Welcome({navigation}:any) {
               </Animated.View>
           </View>
           <Animated.View style={[styles.buttonView, { opacity: titleOpacity }]}>
-              <TouchableOpacity style={styles.button} onPress={()=>{navigation.navigate('HomeNav')}}>
+              <TouchableOpacity style={styles.button} onPress={()=>{navigation.navigate('Home')}}>
                 <Text style={styles.buttonText}>تصفح</Text>
               </TouchableOpacity>
           </Animated.View>

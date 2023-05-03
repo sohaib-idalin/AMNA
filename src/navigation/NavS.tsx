@@ -8,7 +8,7 @@ import { Colors } from '../constants/Colors';
 import { ParamListBase, RouteProp } from '@react-navigation/native';
 
 const Stack = createStackNavigator();
-export default function HomeNav() {
+export default function NavS() {
   const getTilte=(route:RouteProp<ParamListBase, string>)=>{
     if(route.name=='P1')return 'شكاية قضائية1'
     if(route.name=='P2')return 'شكاية قضائية2'
